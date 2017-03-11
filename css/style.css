@@ -73,4 +73,10 @@ li:last-child{
 @media screen and (max-width: 600px){
   ul li li:last-child{float:none;}
   .title{ display: none ;}
+
+  li { width: 100%;
+      height: auto;
+      position: relative;
+    }
+
 }
